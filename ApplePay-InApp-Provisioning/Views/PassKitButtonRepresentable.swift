@@ -21,7 +21,8 @@ struct PassKitViewControllerRepresentable: UIViewControllerRepresentable {
     
     
     func makeUIViewController(context: Context) -> PassKitButtonViewController {
-        let passKitButtonViewController = PassKitButtonViewController(walletConfiguration: self.walletConfiguration)
+        let inAppPassKitReposiotry: InAppPassKitRepository = DependencyInjector.shared.resolve()
+        let passKitButtonViewController = PassKitButtonViewController(inAppPassKitReposiotry, walletConfiguration: self.walletConfiguration)
         return passKitButtonViewController
     }
     

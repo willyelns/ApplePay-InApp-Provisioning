@@ -12,12 +12,14 @@ import PassKit
 
 class PassKitButtonViewController: UIViewController {
 
-    private let inAppPassKitRepository: InAppPassKitRepository = InAppPassKitRepositoryImpl(pkPassLibrary: PKPassLibrary())
+//    private let inAppPassKitRepository: InAppPassKitRepository = InAppPassKitRepositoryImpl(pkPassLibrary: PKPassLibrary())
+    private let inAppPassKitRepository: InAppPassKitRepository
     
     let walletConfiguration: AppleWalletConfiguration
     
-    init(walletConfiguration: AppleWalletConfiguration) {
+    init(_ inAppPassKitRepository: InAppPassKitRepository, walletConfiguration: AppleWalletConfiguration) {
         self.walletConfiguration = walletConfiguration
+        self.inAppPassKitRepository = inAppPassKitRepository
         super.init(nibName: nil, bundle: nil)
     }
     
@@ -30,6 +32,7 @@ class PassKitButtonViewController: UIViewController {
     required init?(coder aDecoder: NSCoder) {
         if let walletConfiguration = aDecoder.decodeObject() as? AppleWalletConfiguration {
             self.walletConfiguration = walletConfiguration
+            self.inAppPassKitRepository = DependencyInjector.shared.resolve()
         } else {
             return nil
         }
