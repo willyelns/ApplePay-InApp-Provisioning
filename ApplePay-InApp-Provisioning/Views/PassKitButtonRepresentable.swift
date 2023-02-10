@@ -6,3 +6,28 @@
 //
 
 import Foundation
+import UIKit
+import SwiftUI
+import PassKit
+
+struct PassKitViewControllerRepresentable: UIViewControllerRepresentable {
+    
+    typealias UIViewControllerType = PassKitButtonViewController
+    
+    @Binding var walletConfiguration: AppleWalletConfiguration
+    
+    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+    
+    
+    
+    func makeUIViewController(context: Context) -> PassKitButtonViewController {
+        let passKitButtonViewController = PassKitButtonViewController(walletConfiguration: self.walletConfiguration)
+        return passKitButtonViewController
+    }
+    
+    func updateUIViewController(_ uiViewController: PassKitButtonViewController, context: Context) {
+        
+    }
+}
+
+
