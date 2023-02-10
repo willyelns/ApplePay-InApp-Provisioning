@@ -19,6 +19,10 @@
 		2B7DA7C929969D5800F6F148 /* PairedDeviceRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7DA7C829969D5800F6F148 /* PairedDeviceRepositoryImpl.swift */; };
 		2B7DA7CC29969D9300F6F148 /* IsCardRegisterAtApplePayInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7DA7CB29969D9300F6F148 /* IsCardRegisterAtApplePayInteractor.swift */; };
 		2B7DA7CE29969DD200F6F148 /* IsCardRegisterAtApplePayInterectorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7DA7CD29969DD200F6F148 /* IsCardRegisterAtApplePayInterectorImpl.swift */; };
+		2B7DA7D129969F7600F6F148 /* PassKitButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7DA7D029969F7600F6F148 /* PassKitButtonViewController.swift */; };
+		2B7DA7D32996A47600F6F148 /* PassKitButtonRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7DA7D22996A47600F6F148 /* PassKitButtonRepresentable.swift */; };
+		2B7DA7D62996CDF900F6F148 /* AutoLayoutWithConstraintsAndAnchorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7DA7D52996CDF900F6F148 /* AutoLayoutWithConstraintsAndAnchorWrapper.swift */; };
+		2B7DA7D82996D4A500F6F148 /* AppleWalletEnrollConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7DA7D72996D4A500F6F148 /* AppleWalletEnrollConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		2B7DA7C829969D5800F6F148 /* PairedDeviceRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairedDeviceRepositoryImpl.swift; sourceTree = "<group>"; };
 		2B7DA7CB29969D9300F6F148 /* IsCardRegisterAtApplePayInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsCardRegisterAtApplePayInteractor.swift; sourceTree = "<group>"; };
 		2B7DA7CD29969DD200F6F148 /* IsCardRegisterAtApplePayInterectorImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsCardRegisterAtApplePayInterectorImpl.swift; sourceTree = "<group>"; };
+		2B7DA7D029969F7600F6F148 /* PassKitButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassKitButtonViewController.swift; sourceTree = "<group>"; };
+		2B7DA7D22996A47600F6F148 /* PassKitButtonRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassKitButtonRepresentable.swift; sourceTree = "<group>"; };
+		2B7DA7D52996CDF900F6F148 /* AutoLayoutWithConstraintsAndAnchorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutWithConstraintsAndAnchorWrapper.swift; sourceTree = "<group>"; };
+		2B7DA7D72996D4A500F6F148 /* AppleWalletEnrollConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWalletEnrollConfiguration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +76,7 @@
 		2B7DA7AC299698E100F6F148 /* ApplePay-InApp-Provisioning */ = {
 			isa = PBXGroup;
 			children = (
+				2B7DA7D42996CDE600F6F148 /* Wrappers */,
 				2B7DA7CF29969E1000F6F148 /* Views */,
 				2B7DA7CA29969D8000F6F148 /* Interectors */,
 				2B7DA7BF29969C7400F6F148 /* Models  */,
@@ -105,6 +114,7 @@
 			children = (
 				2B7DA7C029969CA000F6F148 /* PassKitItem.swift */,
 				2B7DA7C429969D0C00F6F148 /* Card.swift */,
+				2B7DA7D72996D4A500F6F148 /* AppleWalletEnrollConfiguration.swift */,
 			);
 			path = "Models ";
 			sourceTree = "<group>";
@@ -121,8 +131,18 @@
 		2B7DA7CF29969E1000F6F148 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2B7DA7D029969F7600F6F148 /* PassKitButtonViewController.swift */,
+				2B7DA7D22996A47600F6F148 /* PassKitButtonRepresentable.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		2B7DA7D42996CDE600F6F148 /* Wrappers */ = {
+			isa = PBXGroup;
+			children = (
+				2B7DA7D52996CDF900F6F148 /* AutoLayoutWithConstraintsAndAnchorWrapper.swift */,
+			);
+			path = Wrappers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,7 +222,11 @@
 				2B7DA7C129969CA000F6F148 /* PassKitItem.swift in Sources */,
 				2B7DA7CC29969D9300F6F148 /* IsCardRegisterAtApplePayInteractor.swift in Sources */,
 				2B7DA7C929969D5800F6F148 /* PairedDeviceRepositoryImpl.swift in Sources */,
+				2B7DA7D129969F7600F6F148 /* PassKitButtonViewController.swift in Sources */,
+				2B7DA7D82996D4A500F6F148 /* AppleWalletEnrollConfiguration.swift in Sources */,
+				2B7DA7D32996A47600F6F148 /* PassKitButtonRepresentable.swift in Sources */,
 				2B7DA7C729969D3700F6F148 /* PairedDeviceRepository.swift in Sources */,
+				2B7DA7D62996CDF900F6F148 /* AutoLayoutWithConstraintsAndAnchorWrapper.swift in Sources */,
 				2B7DA7C329969CD500F6F148 /* InAppPassKitRepositoryImpl.swift in Sources */,
 				2B7DA7BE29969C6000F6F148 /* InAppPassKitRepository.swift in Sources */,
 			);
@@ -326,6 +350,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "ApplePay-InApp-Provisioning/ApplePay_InApp_Provisioning.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ApplePay-InApp-Provisioning/Preview Content\"";
@@ -348,8 +373,9 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "br.com.kamino.app.ApplePay-InApp-Provisioning";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.kamino.sample-passkit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -364,6 +390,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "ApplePay-InApp-Provisioning/ApplePay_InApp_Provisioning.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ApplePay-InApp-Provisioning/Preview Content\"";
@@ -386,8 +413,9 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "br.com.kamino.app.ApplePay-InApp-Provisioning";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.kamino.sample-passkit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;

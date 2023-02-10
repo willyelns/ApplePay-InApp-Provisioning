@@ -8,12 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var walletConfiguration: AppleWalletConfiguration = AppleWalletConfiguration(description: "description", card: Card(panToken: "**** **** **** 4322", panTokenSuffix: "4322", holderName: "Willylens Xavier", primaryAccountIdentifier: "UUID"))
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Hello, world!").padding()
+            PassKitViewControllerRepresentable(walletConfiguration: self.$walletConfiguration)
+            
         }
         .padding()
     }
