@@ -14,5 +14,7 @@ struct Card {
     /// Last four digits of the `pan token` numeration for the card (****-****-****-0000)
     let panTokenSuffix: String
     /// Holder for the card
-    let holder: String
+    let holderName: String
+    /// ID from the virtual card to Wallet card
+    let primaryAccountIdentifier: String
 }
