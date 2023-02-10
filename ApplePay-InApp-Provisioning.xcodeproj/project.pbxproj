@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B7DA7AE299698E100F6F148 /* ApplePay_InApp_ProvisioningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7DA7AD299698E100F6F148 /* ApplePay_InApp_ProvisioningApp.swift */; };
+		2B7DA7B0299698E100F6F148 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7DA7AF299698E100F6F148 /* ContentView.swift */; };
+		2B7DA7B2299698E200F6F148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B7DA7B1299698E200F6F148 /* Assets.xcassets */; };
+		2B7DA7B6299698E200F6F148 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B7DA7B5299698E200F6F148 /* Preview Assets.xcassets */; };
+		2B7DA7BE29969C6000F6F148 /* InAppPassKitRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7DA7BD29969C6000F6F148 /* InAppPassKitRepository.swift */; };
+		2B7DA7C129969CA000F6F148 /* PassKitItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7DA7C029969CA000F6F148 /* PassKitItem.swift */; };
+		2B7DA7C329969CD500F6F148 /* InAppPassKitRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7DA7C229969CD500F6F148 /* InAppPassKitRepositoryImpl.swift */; };
+		2B7DA7C529969D0C00F6F148 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7DA7C429969D0C00F6F148 /* Card.swift */; };
+		2B7DA7C729969D3700F6F148 /* PairedDeviceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7DA7C629969D3700F6F148 /* PairedDeviceRepository.swift */; };
+		2B7DA7C929969D5800F6F148 /* PairedDeviceRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7DA7C829969D5800F6F148 /* PairedDeviceRepositoryImpl.swift */; };
+		2B7DA7CC29969D9300F6F148 /* IsCardRegisterAtApplePayInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7DA7CB29969D9300F6F148 /* IsCardRegisterAtApplePayInteractor.swift */; };
+		2B7DA7CE29969DD200F6F148 /* IsCardRegisterAtApplePayInterectorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7DA7CD29969DD200F6F148 /* IsCardRegisterAtApplePayInterectorImpl.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B7DA7AA299698E000F6F148 /* ApplePay-InApp-Provisioning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ApplePay-InApp-Provisioning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B7DA7AD299698E100F6F148 /* ApplePay_InApp_ProvisioningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplePay_InApp_ProvisioningApp.swift; sourceTree = "<group>"; };
+		2B7DA7AF299698E100F6F148 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2B7DA7B1299698E200F6F148 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B7DA7B3299698E200F6F148 /* ApplePay_InApp_Provisioning.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ApplePay_InApp_Provisioning.entitlements; sourceTree = "<group>"; };
+		2B7DA7B5299698E200F6F148 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2B7DA7BD29969C6000F6F148 /* InAppPassKitRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppPassKitRepository.swift; sourceTree = "<group>"; };
+		2B7DA7C029969CA000F6F148 /* PassKitItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassKitItem.swift; sourceTree = "<group>"; };
+		2B7DA7C229969CD500F6F148 /* InAppPassKitRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppPassKitRepositoryImpl.swift; sourceTree = "<group>"; };
+		2B7DA7C429969D0C00F6F148 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		2B7DA7C629969D3700F6F148 /* PairedDeviceRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairedDeviceRepository.swift; sourceTree = "<group>"; };
+		2B7DA7C829969D5800F6F148 /* PairedDeviceRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairedDeviceRepositoryImpl.swift; sourceTree = "<group>"; };
+		2B7DA7CB29969D9300F6F148 /* IsCardRegisterAtApplePayInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsCardRegisterAtApplePayInteractor.swift; sourceTree = "<group>"; };
+		2B7DA7CD29969DD200F6F148 /* IsCardRegisterAtApplePayInterectorImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsCardRegisterAtApplePayInterectorImpl.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B7DA7A7299698E000F6F148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B7DA7A1299698E000F6F148 = {
+			isa = PBXGroup;
+			children = (
+				2B7DA7AC299698E100F6F148 /* ApplePay-InApp-Provisioning */,
+				2B7DA7AB299698E000F6F148 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B7DA7AB299698E000F6F148 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B7DA7AA299698E000F6F148 /* ApplePay-InApp-Provisioning.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B7DA7AC299698E100F6F148 /* ApplePay-InApp-Provisioning */ = {
+			isa = PBXGroup;
+			children = (
+				2B7DA7CF29969E1000F6F148 /* Views */,
+				2B7DA7CA29969D8000F6F148 /* Interectors */,
+				2B7DA7BF29969C7400F6F148 /* Models  */,
+				2B7DA7BC29969BC700F6F148 /* Repositories */,
+				2B7DA7AD299698E100F6F148 /* ApplePay_InApp_ProvisioningApp.swift */,
+				2B7DA7AF299698E100F6F148 /* ContentView.swift */,
+				2B7DA7B1299698E200F6F148 /* Assets.xcassets */,
+				2B7DA7B3299698E200F6F148 /* ApplePay_InApp_Provisioning.entitlements */,
+				2B7DA7B4299698E200F6F148 /* Preview Content */,
+			);
+			path = "ApplePay-InApp-Provisioning";
+			sourceTree = "<group>";
+		};
+		2B7DA7B4299698E200F6F148 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2B7DA7B5299698E200F6F148 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2B7DA7BC29969BC700F6F148 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				2B7DA7BD29969C6000F6F148 /* InAppPassKitRepository.swift */,
+				2B7DA7C229969CD500F6F148 /* InAppPassKitRepositoryImpl.swift */,
+				2B7DA7C629969D3700F6F148 /* PairedDeviceRepository.swift */,
+				2B7DA7C829969D5800F6F148 /* PairedDeviceRepositoryImpl.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		2B7DA7BF29969C7400F6F148 /* Models  */ = {
+			isa = PBXGroup;
+			children = (
+				2B7DA7C029969CA000F6F148 /* PassKitItem.swift */,
+				2B7DA7C429969D0C00F6F148 /* Card.swift */,
+			);
+			path = "Models ";
+			sourceTree = "<group>";
+		};
+		2B7DA7CA29969D8000F6F148 /* Interectors */ = {
+			isa = PBXGroup;
+			children = (
+				2B7DA7CB29969D9300F6F148 /* IsCardRegisterAtApplePayInteractor.swift */,
+				2B7DA7CD29969DD200F6F148 /* IsCardRegisterAtApplePayInterectorImpl.swift */,
+			);
+			path = Interectors;
+			sourceTree = "<group>";
+		};
+		2B7DA7CF29969E1000F6F148 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B7DA7A9299698E000F6F148 /* ApplePay-InApp-Provisioning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B7DA7B9299698E200F6F148 /* Build configuration list for PBXNativeTarget "ApplePay-InApp-Provisioning" */;
+			buildPhases = (
+				2B7DA7A6299698E000F6F148 /* Sources */,
+				2B7DA7A7299698E000F6F148 /* Frameworks */,
+				2B7DA7A8299698E000F6F148 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ApplePay-InApp-Provisioning";
+			productName = "ApplePay-InApp-Provisioning";
+			productReference = 2B7DA7AA299698E000F6F148 /* ApplePay-InApp-Provisioning.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B7DA7A2299698E000F6F148 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					2B7DA7A9299698E000F6F148 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 2B7DA7A5299698E000F6F148 /* Build configuration list for PBXProject "ApplePay-InApp-Provisioning" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B7DA7A1299698E000F6F148;
+			productRefGroup = 2B7DA7AB299698E000F6F148 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B7DA7A9299698E000F6F148 /* ApplePay-InApp-Provisioning */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B7DA7A8299698E000F6F148 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7DA7B6299698E200F6F148 /* Preview Assets.xcassets in Resources */,
+				2B7DA7B2299698E200F6F148 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B7DA7A6299698E000F6F148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7DA7B0299698E100F6F148 /* ContentView.swift in Sources */,
+				2B7DA7C529969D0C00F6F148 /* Card.swift in Sources */,
+				2B7DA7CE29969DD200F6F148 /* IsCardRegisterAtApplePayInterectorImpl.swift in Sources */,
+				2B7DA7AE299698E100F6F148 /* ApplePay_InApp_ProvisioningApp.swift in Sources */,
+				2B7DA7C129969CA000F6F148 /* PassKitItem.swift in Sources */,
+				2B7DA7CC29969D9300F6F148 /* IsCardRegisterAtApplePayInteractor.swift in Sources */,
+				2B7DA7C929969D5800F6F148 /* PairedDeviceRepositoryImpl.swift in Sources */,
+				2B7DA7C729969D3700F6F148 /* PairedDeviceRepository.swift in Sources */,
+				2B7DA7C329969CD500F6F148 /* InAppPassKitRepositoryImpl.swift in Sources */,
+				2B7DA7BE29969C6000F6F148 /* InAppPassKitRepository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2B7DA7B7299698E200F6F148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B7DA7B8299698E200F6F148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2B7DA7BA299698E200F6F148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ApplePay-InApp-Provisioning/ApplePay_InApp_Provisioning.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ApplePay-InApp-Provisioning/Preview Content\"";
+				DEVELOPMENT_TEAM = 9G4XR6V963;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.kamino.app.ApplePay-InApp-Provisioning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B7DA7BB299698E200F6F148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ApplePay-InApp-Provisioning/ApplePay_InApp_Provisioning.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ApplePay-InApp-Provisioning/Preview Content\"";
+				DEVELOPMENT_TEAM = 9G4XR6V963;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.kamino.app.ApplePay-InApp-Provisioning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B7DA7A5299698E000F6F148 /* Build configuration list for PBXProject "ApplePay-InApp-Provisioning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B7DA7B7299698E200F6F148 /* Debug */,
+				2B7DA7B8299698E200F6F148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B7DA7B9299698E200F6F148 /* Build configuration list for PBXNativeTarget "ApplePay-InApp-Provisioning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B7DA7BA299698E200F6F148 /* Debug */,
+				2B7DA7BB299698E200F6F148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B7DA7A2299698E000F6F148 /* Project object */;
+}
