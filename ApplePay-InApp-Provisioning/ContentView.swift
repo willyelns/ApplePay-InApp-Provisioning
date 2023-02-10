@@ -12,11 +12,8 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!").padding()
-            PassKitViewControllerRepresentable(walletConfiguration: self.$walletConfiguration)
+            Text("Test run Payment PassKit").padding()
+            PassKitViewControllerRepresentable(walletConfiguration: self.$walletConfiguration).padding()
             
         }
         .padding()

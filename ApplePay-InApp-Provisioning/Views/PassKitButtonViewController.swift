@@ -18,7 +18,7 @@ class PassKitButtonViewController: UIViewController {
     
     init(walletConfiguration: AppleWalletConfiguration) {
         self.walletConfiguration = walletConfiguration
-        super.init()
+        super.init(nibName: nil, bundle: nil)
     }
     
     /**
@@ -57,8 +57,7 @@ class PassKitButtonViewController: UIViewController {
      Create the `AddToWallet` button here we can customize the button to fit the designer layout.
      */
     private func setupApplePayButton() {
-        @UsesAutoLayoutWithConstraintsAndAnchor(view: self.view, topAnchorConstraintValue: 32, leadingAnchorConstraintValue: 32, trailingAnchorConstraintValue: -32)
-        var passKitButton = PKAddPassButton(addPassButtonStyle: .black)
+        @UsesAutoLayout var passKitButton = PKAddPassButton(addPassButtonStyle: .black)
         passKitButton.addTarget(self, action: #selector(self.onPress), for: .touchUpInside)
         view.addSubview(passKitButton)
     }
